@@ -15,7 +15,7 @@ const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, proces
 
 const User = require('./models/userModel')(sequelize);
 
-const userRoutes = require('./routes/userRoutes')(sequelize); // Move this line below the sequelize instance creation
+const userRoutes = require('./routes/userRoutes')(sequelize);
 
 app.use('/api/users', userRoutes);
 

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-module.exports = (sequelize) => { // Add (sequelize) here
-  const { User } = require('../models/userModel')(sequelize); // Update this line
+module.exports = (sequelize) => {
+  const { User } = require('../models/userModel')(sequelize);
 
 // Create User
 router.post('/', async (req, res) => {
