@@ -6,11 +6,11 @@ This project is a RESTful API for managing user data, including creating, readin
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/user-management-api.git
+git clone https://github.com/os-ct/user-express.git
 ```
 2. Change to the project directory:
 ```bash
-cd user-management-api
+cd user-express
 ```
 3. Build the Docker images:
 ```bash
@@ -30,6 +30,8 @@ This command will start the application and database services.
 2. Access the API endpoints:
 
 The API will be available at `http://localhost:3000`. Use a tool like [Postman](https://www.postman.com/) or [curl](https://curl.se/) to interact with the API endpoints.
+
+Postman collection to import: [postman-collection/user-express.postman_collection.json](user-express.postman_collection.json)
 
 ## API Endpoints
 
@@ -90,3 +92,9 @@ The following API endpoints are available:
 - **Response:**
   - Status Code: `200 OK`
   - Body: `User deleted successfully` message
+
+3. Stop the services:
+```bash
+docker-compose down
+```
+This command will stop and remove containers, networks
