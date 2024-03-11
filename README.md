@@ -31,7 +31,7 @@ This command will start the application and database services.
 
 The API will be available at `http://localhost:3000`. Use a tool like [Postman](https://www.postman.com/) or [curl](https://curl.se/) to interact with the API endpoints.
 
-Postman collection to import: [postman-collection/user-express.postman_collection.json](user-express.postman_collection.json)
+Postman collection to import: [user-express.postman_collection.json](postman-collection/user-express.postman_collection.json)
 
 ## API Endpoints
 
